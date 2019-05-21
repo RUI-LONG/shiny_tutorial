@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Data Visualization</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <section ng-app="app" ng-controller="dataCtrl">
+
+  <h1>Responsive and Interactive Data with D3 + Angular + Flexbox</h1>
+
+  <div class="charts">
+    <div class="chart-container" ng-style="myStyle">
+      <h4 ng-click="myStyle={order: 3}">Scatter Plot</h4>
+      <scatter-plot scatterdata="scatterdata" ng-click="updateScatterData()"></scatter-plot>
+    </div>
+    <div class="chart-container">
+      <h4>Bar Chart</h4>
+      <bar-chart bardata="bardata" ng-click="updateBarData()"></bar-chart>
+    </div>
+    <div class="chart-container">
+      <h4>Ring Chart</h4>
+      <pie-chart piedata="piedata" ng-click="updatePieData()"></pie-chart>
+    </div>
+  </div>
+  
+  <footer>(click charts to randomize data)</footer>
+
+
+</section>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

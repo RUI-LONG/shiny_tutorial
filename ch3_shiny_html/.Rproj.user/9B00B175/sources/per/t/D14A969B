@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1558396276098.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3530393789",
+    "id" : "D14A969B",
+    "lastKnownWriteTime" : 1558398814,
+    "last_content_update" : 1558398814532,
+    "path" : "E:/shiny_tutorial/ch2_Reactivity/ui.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

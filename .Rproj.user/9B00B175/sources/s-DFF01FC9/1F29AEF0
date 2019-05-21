@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1558437316313.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3738036925",
+    "id" : "1F29AEF0",
+    "lastKnownWriteTime" : 1558439132,
+    "last_content_update" : 1558439132347,
+    "path" : "E:/shiny_tutorial/ch3_shiny_html/runapp.R",
+    "project_path" : "ch3_shiny_html/runapp.R",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
